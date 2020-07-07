@@ -2,17 +2,17 @@ import React from 'react';
 
 
 
-export default function Jumbotron() {
+export default function Jumbotron = (props) => {
     return (
         <tr>
             <td>
-                <img src={props.photo} alt="Employee Photo" />
+                <img src={photo} alt="Employee Photo" />
             </td>
-            <td> {props.name}</td>
-            <td> {props.email}</td>
-            <td> {props.phone}</td>
-            <td> {props.location}</td>
-            <td> {props.dob}</td>
+            <td> {name}</td>
+            <td> {email}</td>
+            <td> {phone}</td>
+            <td> {location}</td>
+            <td> {dob}</td>
 
         </tr>
     );
