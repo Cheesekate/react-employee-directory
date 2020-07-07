@@ -4,13 +4,17 @@ import React from 'react';
 
 export default function Jumbotron() {
     return (
-        <div className="jumbotron jumbotron-fluid">
-            <div className="container">
-                <h1 className="display-4">Fluid jumbotron</h1>
-                <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-                <h5>Hello Kate</h5>
-            </div>
-        </div>
+        <tr>
+            <td>
+                <img src={props.photo} alt="Employee Photo" />
+            </td>
+            <td> {props.name}</td>
+            <td> {props.email}</td>
+            <td> {props.phone}</td>
+            <td> {props.location}</td>
+            <td> {props.datofbirth}</td>
+
+        </tr>
     );
 }
 
