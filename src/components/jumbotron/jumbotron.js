@@ -12,7 +12,7 @@ export default function Jumbotron() {
             <td> {props.email}</td>
             <td> {props.phone}</td>
             <td> {props.location}</td>
-            <td> {props.datofbirth}</td>
+            <td> {props.dob}</td>
 
         </tr>
     );
