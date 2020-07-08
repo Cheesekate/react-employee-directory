@@ -1,9 +1,10 @@
 import React from 'react';
-import React, { searchInput } from "react";
-import People from 
+//import React, { searchInput } from "react";
+//import Search from "../Search/search";
+//import People from 
 
 
-export default function Navbar(props) {
+export default function Navbar() {
     return (
         <div className="navbar-brand">
             <header className="App-header">
@@ -13,15 +14,11 @@ export default function Navbar(props) {
                     <div className="navbar-brand" href="#">Employee Directory</div>
                     <h2 className="text-center">
                         Filter Results
-            </h2>
+                    </h2>
                 </div>
-                <input className="Search" placeholder="Search"></input>
-                <hr />
-                <Container />
 
-                <NewRandoUser />
             </header>
         </div>
 
-    )
+    );
 }
