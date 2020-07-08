@@ -12,9 +12,6 @@ export default function Navbar() {
                     <div className="container"></div>
                     <h1 className="display-4 text-center">Employee Directory</h1>
                     <div className="navbar-brand" href="#">Employee Directory</div>
-                    <h2 className="text-center">
-                        Filter Results
-                    </h2>
                 </div>
 
             </header>
